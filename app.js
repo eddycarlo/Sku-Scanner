@@ -278,16 +278,19 @@ const scanAgainBtn = document.getElementById("scanAgainBtn");
 
 async function startScanning() {
   if (scanning) return;
-  html5QrCode = new Html5Qrcode("reader", {
-    formatsToSupport: [
-      Html5QrcodeSupportedFormats.EAN_13,
-      Html5QrcodeSupportedFormats.EAN_8,
-      Html5QrcodeSupportedFormats.UPC_A,
-      Html5QrcodeSupportedFormats.UPC_E,
-    ],
-    verbose: false,
-  });
   try {
+    if (typeof Html5Qrcode === "undefined") {
+      throw new Error("La librairie de scan (Html5Qrcode) ne s'est pas chargée.");
+    }
+    html5QrCode = new Html5Qrcode("reader", {
+      formatsToSupport: [
+        Html5QrcodeSupportedFormats.EAN_13,
+        Html5QrcodeSupportedFormats.EAN_8,
+        Html5QrcodeSupportedFormats.UPC_A,
+        Html5QrcodeSupportedFormats.UPC_E,
+      ],
+      verbose: false,
+    });
     await html5QrCode.start(
       { facingMode: "environment" },
       { fps: 12, qrbox: { width: 260, height: 160 } },
@@ -299,8 +302,14 @@ async function startScanning() {
     stopBtn.hidden = false;
     document.getElementById("cameraHint").textContent = "Pointe la caméra sur un code-barres";
   } catch (err) {
-    document.getElementById("cameraHint").textContent =
-      "Impossible d'accéder à la caméra. Vérifie les permissions dans Réglages > Safari.";
+    const hint = document.getElementById("cameraHint");
+    if (typeof Html5Qrcode === "undefined") {
+      hint.textContent =
+        "Erreur : la librairie de scan ne s'est pas chargée (fichier vendor/html5-qrcode.min.js manquant ou inaccessible). Recharge la page ou vérifie ta connexion.";
+    } else {
+      hint.textContent =
+        "Impossible d'accéder à la caméra. Vérifie les permissions dans Réglages > Safari.";
+    }
     console.error(err);
   }
 }
