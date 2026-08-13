@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>CIS Scanner</title>
+
+<!-- PWA -->
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#0b2140">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CIS Scanner">
+<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<link rel="icon" href="./icons/icon-192.png">
+
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-title">CIS Scanner</div>
+  <div class="topbar-sub" id="dbInfo">chargement…</div>
+</header>
+
+<main>
+
+  <section id="scanScreen" class="screen active">
+    <div id="cameraWrap" class="camera-wrap">
+      <div id="reader"></div>
+      <div class="scan-frame"></div>
+      <div id="cameraHint" class="camera-hint">Pointe la caméra sur un code-barres</div>
+    </div>
+
+    <div class="controls">
+      <button id="startBtn" class="btn btn-primary">Démarrer le scan</button>
+      <button id="stopBtn" class="btn btn-ghost" hidden>Arrêter</button>
+      <button id="manualBtn" class="btn btn-ghost">Recherche manuelle</button>
+    </div>
+
+    <div id="manualPanel" class="manual-panel" hidden>
+      <input id="manualInput" type="text" inputmode="numeric" placeholder="UPC, marque ou description…">
+      <div id="manualResults" class="manual-results"></div>
+    </div>
+  </section>
+
+  <section id="resultScreen" class="screen">
+    <div id="resultBanner" class="result-banner">
+      <div id="resultStatus" class="result-status">—</div>
+      <div id="resultCode" class="result-code"></div>
+    </div>
+
+    <div id="resultCard" class="result-card" hidden>
+      <div class="result-row"><span class="label">Marque</span><span id="rBrand" class="value"></span></div>
+      <div class="result-row"><span class="label">Sous-marque</span><span id="rSubBrand" class="value"></span></div>
+      <div class="result-row"><span class="label">Description</span><span id="rDesc" class="value"></span></div>
+      <div class="result-row"><span class="label">Catégorie</span><span id="rCat" class="value"></span></div>
+      <div class="result-row"><span class="label">Format</span><span id="rFormat" class="value"></span></div>
+      <div class="result-row"><span class="label">Manufacturier</span><span id="rManuf" class="value"></span></div>
+      <div class="result-row"><span class="label">Statut base</span><span id="rStatus" class="value"></span></div>
+    </div>
+
+    <div id="notFoundCard" class="result-card" hidden>
+      <p>Ce code ne correspond à aucun produit dans la base CIS (913 produits chargés).</p>
+      <p class="muted">Vérifie que le code est bien lisible, ou utilise la recherche manuelle.</p>
+    </div>
+
+    <div class="result-actions">
+      <button id="markPurchasedBtn" class="btn btn-success" hidden>Marquer comme acheté</button>
+      <button id="markUnPurchasedBtn" class="btn btn-warn" hidden>Remettre "à acheter"</button>
+      <button id="scanAgainBtn" class="btn btn-primary">Scanner un autre produit</button>
+    </div>
+  </section>
+
+  <section id="pendingScreen" class="screen">
+    <h2>Mises à jour locales à reporter</h2>
+    <p class="muted">Ces changements sont seulement sur ce téléphone — temporaire, pour ce magasinage-ci. La seule base de données officielle, c'est le CIS Product Database dans Claude. Pour rendre un changement permanent : donne cette liste à Claude (colle-la dans une conversation), il met à jour la base et te redonne un <code>products.json</code> à jour à uploader sur GitHub. Ne modifie jamais <code>products.json</code> à la main.</p>
+    <div id="pendingList" class="pending-list"></div>
+    <button id="copyPendingBtn" class="btn btn-primary" hidden>Copier la liste pour Claude</button>
+    <button id="clearPendingBtn" class="btn btn-ghost">Effacer les mises à jour locales</button>
+  </section>
+
+</main>
+
+<nav class="bottomnav">
+  <button class="navbtn active" data-screen="scanScreen">Scanner</button>
+  <button class="navbtn" data-screen="pendingScreen">À reporter <span id="pendingBadge" class="badge" hidden>0</span></button>
+</nav>
+
+<!-- ZXing-based barcode scanner (works well for 1D UPC/EAN on iOS Safari) — vendored locally for offline reliability in-store -->
+<script src="./vendor/html5-qrcode.min.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
