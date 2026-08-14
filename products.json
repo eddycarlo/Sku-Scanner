@@ -231,8 +231,8 @@
     "units": "24",
     "sheets": "154",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "77191377748",
       "7191377748",
@@ -2723,8 +2723,8 @@
     "units": "9",
     "sheets": "198",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132873010",
       "061328730109",
@@ -2849,8 +2849,8 @@
     "units": "12",
     "sheets": "242",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132834242",
       "061328342425",
@@ -3416,8 +3416,8 @@
     "units": "12",
     "sheets": "264",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132839331",
       "061328393311",
@@ -3730,8 +3730,8 @@
     "units": "8",
     "sheets": "198",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132839350",
       "061328393502",
@@ -8064,8 +8064,8 @@
     "units": "12",
     "sheets": "242",
     "private_label": "Yes",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6384895971",
       "063848959718",
@@ -8085,8 +8085,8 @@
     "units": "3",
     "sheets": "198",
     "private_label": "Yes",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6384896342",
       "063848963425",
@@ -8127,8 +8127,8 @@
     "units": "2",
     "sheets": "242",
     "private_label": "Yes",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6384896341",
       "063848963418",
@@ -8190,8 +8190,8 @@
     "units": "3",
     "sheets": "198",
     "private_label": "Yes",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6384896340",
       "063848963401",
@@ -10956,8 +10956,8 @@
     "units": "3",
     "sheets": "150",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132873003",
       "061328730031",
@@ -11544,8 +11544,8 @@
     "units": "4",
     "sheets": "104",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132884302",
       "061328843021",
@@ -11607,8 +11607,8 @@
     "units": "6",
     "sheets": "126",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132880136",
       "061328801366",
@@ -11712,8 +11712,8 @@
     "units": "9",
     "sheets": "100",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132880217",
       "061328802172",
@@ -11754,8 +11754,8 @@
     "units": "9",
     "sheets": "72",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132885309",
       "061328853099",
@@ -11838,8 +11838,8 @@
     "units": "8",
     "sheets": "10",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132886910",
       "061328869106",
@@ -11943,8 +11943,8 @@
     "units": "1",
     "sheets": "126",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132880114",
       "061328801144",
@@ -12069,8 +12069,8 @@
     "units": "1",
     "sheets": "81",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132885271",
       "061328852719",
@@ -14223,8 +14223,8 @@
     "units": "9",
     "sheets": "100",
     "private_label": "Yes",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6384895880",
       "063848958803",
@@ -14265,8 +14265,8 @@
     "units": "9",
     "sheets": "100",
     "private_label": "Yes",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6384895881",
       "063848958810",
@@ -14413,8 +14413,8 @@
     "units": "12",
     "sheets": "105",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "77191377764",
       "7191377764",
@@ -14523,8 +14523,8 @@
     "units": "6",
     "sheets": "160",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "77191377298",
       "7191377298",
@@ -14545,8 +14545,8 @@
     "units": "6",
     "sheets": "105",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "77191377294",
       "7191377294",
@@ -15493,8 +15493,8 @@
     "units": "3",
     "sheets": "160",
     "private_label": "No",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6132873002",
       "061328730024",
@@ -18770,8 +18770,8 @@
     "units": "6",
     "sheets": "72",
     "private_label": "Yes",
-    "status_raw": "1 - To Buy",
-    "purchased": false,
+    "status_raw": "2 - Purchased",
+    "purchased": true,
     "match_keys": [
       "6384895990",
       "063848959909",
@@ -19297,6 +19297,226 @@
     "match_keys": [
       "681131339162",
       "1131339162"
+    ]
+  },
+  {
+    "upc_source": "061328843083",
+    "barcode": "061328843083",
+    "category": "Facial Tissue",
+    "manufacturer": "Kruger Products",
+    "brand": "SCOTTIES",
+    "sub_brand": "ULTRA SOFT",
+    "description": "SCOTTIES ULTRA SOFT 4X52S (TBC)",
+    "format": "MULTI 4's",
+    "ply": "3",
+    "units": "4",
+    "sheets": "52",
+    "private_label": "No",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "061328843083",
+      "1328843083"
+    ]
+  },
+  {
+    "upc_source": "061328843076",
+    "barcode": "061328843076",
+    "category": "Facial Tissue",
+    "manufacturer": "Kruger Products",
+    "brand": "SCOTTIES",
+    "sub_brand": "ULTRA SOFT",
+    "description": "SCOTTIES ULTRA SOFT DX 52S (TBC)",
+    "format": "TBC",
+    "ply": "3",
+    "units": "",
+    "sheets": "52",
+    "private_label": "No",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "061328843076",
+      "1328843076"
+    ]
+  },
+  {
+    "upc_source": "061328600501",
+    "barcode": "061328600501",
+    "category": "Napkins",
+    "manufacturer": "Kruger Products",
+    "brand": "CASHMERE",
+    "sub_brand": "",
+    "description": "CASHMERE SERVIETTES DE TABLE 50S (TBC)",
+    "format": "50 UN",
+    "ply": "",
+    "units": "50",
+    "sheets": "",
+    "private_label": "No",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "061328600501",
+      "1328600501"
+    ]
+  },
+  {
+    "upc_source": "063848959145",
+    "barcode": "063848959145",
+    "category": "Facial Tissue",
+    "manufacturer": "TBC (private label)",
+    "brand": "ESSENTIEL",
+    "sub_brand": "",
+    "description": "ESSENTIEL 3PLY 72S (TBC)",
+    "format": "SINGLE STANDARD",
+    "ply": "3",
+    "units": "1",
+    "sheets": "72",
+    "private_label": "Yes",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "063848959145",
+      "3848959145"
+    ]
+  },
+  {
+    "upc_source": "061328354909",
+    "barcode": "061328354909",
+    "category": "Bathroom Tissue",
+    "manufacturer": "Kruger Products",
+    "brand": "CASHMERE",
+    "sub_brand": "CASHMERE ULTRA",
+    "description": "CASHMERE ULTRA DOUBLE ROLL 8S (TBC)",
+    "format": "DBL 8=16",
+    "ply": "3",
+    "units": "8",
+    "sheets": "",
+    "private_label": "No",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "061328354909",
+      "1328354909"
+    ]
+  },
+  {
+    "upc_source": "063848972724",
+    "barcode": "063848972724",
+    "category": "Bathroom Tissue",
+    "manufacturer": "TBC (private label)",
+    "brand": "ESSENTIEL",
+    "sub_brand": "",
+    "description": "ESSENTIEL DOUBLE 2PLY 8S (TBC)",
+    "format": "DBL 8=16",
+    "ply": "2",
+    "units": "8",
+    "sheets": "",
+    "private_label": "Yes",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "063848972724",
+      "3848972724"
+    ]
+  },
+  {
+    "upc_source": "063848973554",
+    "barcode": "063848973554",
+    "category": "Facial Tissue",
+    "manufacturer": "TBC (private label)",
+    "brand": "ESSENTIEL",
+    "sub_brand": "",
+    "description": "ESSENTIEL 6X100S (TBC)",
+    "format": "MULTI 6'S",
+    "ply": "",
+    "units": "6",
+    "sheets": "100",
+    "private_label": "Yes",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "063848973554",
+      "3848973554"
+    ]
+  },
+  {
+    "upc_source": "771913780326",
+    "barcode": "771913780326",
+    "category": "Bathroom Tissue",
+    "manufacturer": "Cascades",
+    "brand": "CASCADES",
+    "sub_brand": "FLUFF",
+    "description": "CASCADES FLUFF EXCELL 12S (TBC)",
+    "format": "12 ROLL",
+    "ply": "",
+    "units": "12",
+    "sheets": "",
+    "private_label": "No",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "771913780326",
+      "1913780326"
+    ]
+  },
+  {
+    "upc_source": "771913780333",
+    "barcode": "771913780333",
+    "category": "Bathroom Tissue",
+    "manufacturer": "Cascades",
+    "brand": "CASCADES",
+    "sub_brand": "FLUFF",
+    "description": "CASCADES FLUFF EXCELL 24S (TBC)",
+    "format": "24 ROLL",
+    "ply": "",
+    "units": "24",
+    "sheets": "",
+    "private_label": "No",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "771913780333",
+      "1913780333"
+    ]
+  },
+  {
+    "upc_source": "063848976814",
+    "barcode": "063848976814",
+    "category": "Paper Towel",
+    "manufacturer": "TBC (private label)",
+    "brand": "ESSENTIEL",
+    "sub_brand": "ULTRA",
+    "description": "ESSENTIEL ULTRA ESSUIE-TOUT 3S (TBC)",
+    "format": "3 ROLL",
+    "ply": "",
+    "units": "3",
+    "sheets": "",
+    "private_label": "Yes",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "063848976814",
+      "3848976814"
+    ]
+  },
+  {
+    "upc_source": "061328533519",
+    "barcode": "061328533519",
+    "category": "Paper Towel",
+    "manufacturer": "Kruger Products",
+    "brand": "SPONGETOWELS",
+    "sub_brand": "ULTRAPRO",
+    "description": "SPONGETOWELS ULTRAPRO 3S (TBC)",
+    "format": "3 ROLL",
+    "ply": "2",
+    "units": "3",
+    "sheets": "",
+    "private_label": "No",
+    "status_raw": "2 - Purchased",
+    "purchased": true,
+    "match_keys": [
+      "061328533519",
+      "1328533519"
     ]
   }
 ]
